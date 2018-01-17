@@ -20,3 +20,5 @@ Route::post('/register/{id}','RegisterNewController@store')->name('register');
 
 Route::get('login/{provider}', 'RegisterNewController@redirectToProvider');
 Route::get('login/{provider}/callback', 'RegisterNewController@handleProviderCallback');
+
+Route::get('/game','GameController@index');

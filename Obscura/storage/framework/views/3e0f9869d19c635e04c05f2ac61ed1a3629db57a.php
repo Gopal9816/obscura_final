@@ -38,6 +38,7 @@
             </div>
         </div>
     </div>
+    <example></example>
 </div>
 <?php $__env->stopSection(); ?>
 
