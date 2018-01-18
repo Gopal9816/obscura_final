@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="page-header text-center">
+<!--<div class="page-header text-center">
     <h1>Welcome {{ $user->name }}</h1>
-</div> 
+</div> -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <h2 id="rhyme" class="text-center">
@@ -18,14 +18,15 @@
 <div class="row">
     <div class="col-md-6 col-xs-6">
         <a href="/red">
-            <img src="{{ asset('img/re.png') }}" class="img-responsive" >
+            <img src="{{ asset('img/p1.png') }}" class="img-responsive">
         </a> 
     </div>
     <div class="col-md-6 col-xs-6">
         <a href="/blue">
-            <img src="{{ asset('img/dd.png') }}" class="img-responsive" >
+            <img src="{{ asset('img/p2.png') }}" class="img-responsive" >
         </a> 
     </div>
+
 </div>
 
 
