@@ -14,9 +14,9 @@ class GameController extends Controller
     }
 
     public function index(){
-        $user = Auth()::user;
+        $user = Auth::user();
         $level = $user->level;
 
-        return view('question');
+        return view('question')->with('user',$user);
     }
 }

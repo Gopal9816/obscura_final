@@ -88,6 +88,37 @@ header:after {
   }
 }
 
+#img:hover {
+  -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotateY(0deg);
+      
+      
+  }
+  to {
+      -webkit-transform: rotateY(359deg);			
+      
+  }
+/*		0%{
+    -webkit-filter: invert(0%); 
+      filter: invert(0%);
+  }
+  50%{
+    -webkit-filter: invert(50%); 
+      filter: invert(50%);
+  }
+  100%{
+    -webkit-filter: invert(100%); 
+      filter: invert(100%);
+
+  } */
+
+}
+
+
 @keyframes pop-in {
   0% {
     opacity: 0;
