@@ -22,3 +22,6 @@ Route::get('login/{provider}', 'RegisterNewController@redirectToProvider');
 Route::get('login/{provider}/callback', 'RegisterNewController@handleProviderCallback');
 
 Route::get('/game','GameController@index');
+Route::get('/game/red','GameController@pill');
+Route::get('/game/blue','GameController@teaser');
+Route::post('/game','GameController@answer');

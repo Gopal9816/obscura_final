@@ -17,12 +17,12 @@
 </div>
 <div class="row">
     <div class="col-md-6 col-xs-6">
-        <a href="/red">
+        <a href="/game/red">
             <img src="{{ asset('img/p1.png') }}" class="img-responsive">
         </a> 
     </div>
     <div class="col-md-6 col-xs-6">
-        <a href="/blue">
+        <a href="/game/blue">
             <img src="{{ asset('img/p2.png') }}" class="img-responsive" >
         </a> 
     </div>
