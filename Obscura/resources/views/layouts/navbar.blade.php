@@ -21,6 +21,9 @@
                   <ul class="nav navbar-nav">
                     <li><a href="/rules">Rules and Regulations</a></li>
                     <li><a href="/leaderboard">Leaderboard</a></li>
+                    @auth
+                    <li><a href="/game">Game</a></li>
+                    @endauth
                   </ul>
 
                   <!-- Right Side Of Navbar -->

@@ -25,8 +25,11 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    Details
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title" style="padding-top: 7.5px;">Details</h4>
+                    <div class="btn-group pull-right">
+                        <a class="btn btn-success" href="/edit">Edit</a>
+                    </div>
                 </div>
                 <div class="panel-body">
                     <ul>

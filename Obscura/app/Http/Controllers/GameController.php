@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Auth;
+use App\User;
 
 class GameController extends Controller
 {
@@ -46,8 +47,17 @@ class GameController extends Controller
         );
         $level = $user->level;
         $correctAns = $answerList[$level];
-        if($answer == $correctAns){
+        if(stripos($answer,$correctAns) !== false){
             $user->level += 1;
+            $num = User::where('level',$user->level)->count();
+            if($num == 0)
+                $user->points += 500;
+            elseif($num == 1)
+                $user->points += 300;
+            elseif($num == 2)             
+                $user->points += 150;
+            else
+                $user->points += 75;
             $user->save();
             return redirect('/game');
         }

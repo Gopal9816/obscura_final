@@ -25,3 +25,6 @@ Route::get('/game','GameController@index');
 Route::get('/game/red','GameController@pill');
 Route::get('/game/blue','GameController@teaser');
 Route::post('/game','GameController@answer');
+
+Route::get('/edit','HomeController@edit');
+Route::post('/edit/{id}','HomeController@update');

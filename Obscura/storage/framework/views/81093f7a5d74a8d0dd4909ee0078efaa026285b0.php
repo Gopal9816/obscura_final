@@ -1,14 +1,23 @@
 <?php $__env->startSection('content'); ?>
 <div class ="row">
-    <div class="col-md-8 col-md-offset-2">
-        <?php echo Form::open(['action' => 'GameController@answer', 'method' => 'POST']); ?>
+    
+    <h2 id="rhyme" class="text-center">
+        Tweedledee and Tweedledum<br>
+        Started their started their life as misters <br>
+        Years past and a trilogy,<br>
+        Ended up as sisters.
+        <br>
+    </h2>
+    <br><br>
+    <div class="col-md-6 col-md-offset-3">        
+            <?php echo Form::open(['action' => 'GameController@answer', 'method' => 'POST']); ?>
 
-            <div class="form-group">
-                <?php echo e(Form::label('answer','Answer')); ?>
+                <div class="form-group" align="center">
+                    <?php echo e(Form::label('answer','Answer')); ?>
 
-                <?php echo e(Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])); ?>
+                    <?php echo e(Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])); ?>
 
-            </div>
+                </div>
             <?php echo e(Form::submit('Submit',['class' => 'btn btn-success'])); ?>
 
         <?php echo Form::close(); ?>

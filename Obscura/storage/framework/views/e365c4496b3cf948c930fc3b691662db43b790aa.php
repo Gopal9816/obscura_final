@@ -5,8 +5,8 @@
             <br><br><br>
             <?php if(auth()->guard()->guest()): ?>
             <p>
-                <a href="/login/google"><button id="google">Sign In With Google</button></a>
-                <a href="/login/facebook"><button id="facebook">Sign In With Facebook</button></a>
+                <a href="/login/google"><button id="google" class=btn>Sign In With Google</button></a>
+                <a href="/login/facebook"><button id="facebook" class=btn>Sign In With Facebook</button></a>
             </p>
             <?php else: ?>
             <p>
