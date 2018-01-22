@@ -1,9 +1,7 @@
-@extends('layouts.app')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <!--<div class="page-header text-center">
-    <h1>Welcome {{ $user->name }}</h1>
+    <h1>Welcome <?php echo e($user->name); ?></h1>
 </div> -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
@@ -18,16 +16,19 @@
 <div class="row">
     <div class="col-md-6 col-xs-6">
         <a href="/game/red">
-            <img src="{{ asset('img/p1.png') }}" class="img-responsive">
+            <img src="<?php echo e(asset('img/p1.png')); ?>" class="img-responsive">
         </a> 
     </div>
     <div class="col-md-6 col-xs-6">
         <a href="/game/blue">
-            <img src="{{ asset('img/p2.png') }}" class="img-responsive" >
+            <img src="<?php echo e(asset('img/p2.png')); ?>" class="img-responsive" >
         </a> 
     </div>
 
 </div>
 
 
-@endsection
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
