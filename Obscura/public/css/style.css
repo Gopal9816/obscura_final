@@ -139,3 +139,18 @@ header:after {
     transform: rotateZ(-4deg);
   }
 }
+
+#google{
+  background-color:  #DB4437;
+  font-size: 20px;
+}
+
+#facebook{
+  background-color:  	#3b5998;
+  font-size: 20px;
+  
+}
+
+.transparent{
+  background: transparent;
+}
