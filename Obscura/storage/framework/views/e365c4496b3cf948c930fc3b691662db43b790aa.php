@@ -1,12 +1,12 @@
 <?php $__env->startSection('content'); ?>
 <div class="container-fluid">
-    <div class="jumbotron text-center">
-            <h1 class="display-4 animate-pop-in" align="center">OBSCURA</h1>
+    <div class="jumbotron text-center transparent">
+            <h1 align="center">OBSCURA</h1>
             <br><br><br>
             <?php if(auth()->guard()->guest()): ?>
             <p>
-                <a href="/login/google"><button id="google" class=btn>Sign In With Google</button></a>
-                <a href="/login/facebook"><button id="facebook" class=btn>Sign In With Facebook</button></a>
+                <a href="/login/google" style="color:white;"><button id="google" class=btn><i class="fa fa-google">  Google</i></button></a>
+                <a href="/login/facebook" style="color:white;"><button id="facebook" class=btn><i class="fa fa-facebook">  Facebook</i></button></a>
             </p>
             <?php else: ?>
             <p>

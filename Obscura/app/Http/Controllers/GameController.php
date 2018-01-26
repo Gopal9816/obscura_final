@@ -30,8 +30,10 @@ class GameController extends Controller
 
     public function pill(){
         $user = Auth::user();
-
-        return view('levels.redpill')->with('user',$user);
+        if($user->level == 1)
+            return view('levels.redpill')->with('user',$user);
+        else
+            return redirect('/game');
     }
 
     public function teaser(){
@@ -52,11 +54,11 @@ class GameController extends Controller
         if(stripos($answer,$correctAns) !== false){
             $user->level += 1;
             $num = User::where('level',$user->level)->count();
-            if($num == 0)
+            if($num == 4)
                 $user->points += 500;
-            elseif($num == 1)
+            elseif($num == 9)
                 $user->points += 300;
-            elseif($num == 2)             
+            elseif($num == 19)             
                 $user->points += 150;
             else
                 $user->points += 75;
@@ -64,7 +66,7 @@ class GameController extends Controller
             return redirect('/game');
         }
         else
-            return redirect('/game/red');
+            return redirect('/game');
     }
 
     
