@@ -58,9 +58,9 @@ class GameController extends Controller
             $num = User::where('level',$user->level)->count();
             if($num <= 4)
                 $user->points += 500;
-            elseif($num <= 9)
+            else if($num <= 9)
                 $user->points += 300;
-            elseif($num <= 19)             
+            else if($num <= 19)             
                 $user->points += 150;
             else
                 $user->points += 75;

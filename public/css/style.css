@@ -122,10 +122,11 @@ header:after {
 
 }
 body{
-background-image: url('../img/b1.jpg');
+  background-image: url('../img/b1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
+  color: #ffffff;
 }
 .navbar{
   background-color: rgba(0,0,0,0.9);

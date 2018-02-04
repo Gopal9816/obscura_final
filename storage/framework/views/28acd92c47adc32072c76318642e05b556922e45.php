@@ -17,14 +17,14 @@
     <div class="col-md-1 col-xs-1"></div>
 </div>
 <div class="row" >
-    <div class="col-md-6 col-xs-6 hand">
+    <div class="col-md-6 col-xs-6 hand" align="center">
         <a href="/game/red">
             <!--<img src="<?php echo e(asset('img/p1.png')); ?>" class="img-responsive">-->
             
             <img src="../img/redh.svg" class="lefth">
         </a> 
     </div>
-    <div class="col-md-6 col-xs-6 hand">
+    <div class="col-md-6 col-xs-6 hand" align="center">
         <a href="/game/blue">
             <!--<img src="<?php echo e(asset('img/p2.png')); ?>" class="img-responsive" >-->
            
