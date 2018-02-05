@@ -2,7 +2,7 @@
     font-family: "My Custom Font";
     src: url("Hermit-light.otf") format("Opentype");
 }
-div { 
+p { 
     font-family: "My Custom Font", Verdana, Tahoma;
     font-size: 20px;
 }

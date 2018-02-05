@@ -1,6 +1,11 @@
 <html>
     <head>
     <title>Welcome to Obscura</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     <script type='text/javascript'>
     var index = 0;
     var text = 'Greetings.'+ '\n' +'If you are looking for the online cryptic treasure hunt, this is not the place. \nIf you are looking to pass through every obstacle and reach the end, this is not the place. \nIf you are looking to win, this is not the place. \n You\'ll be disappointed friend. \nBut, \nIf you\'re willing to enter into the Rabbit hole for a journey like never before, welcome to the Obscura. \nTest your limits. \nOnce you\'re in, there\'s no going back. \nGood luck.'
@@ -108,17 +113,19 @@
     <link rel="stylesheet" type="text/css"href="page0.css">
     </head>
     <body onload='type()'>
-    <div id='screen'></div>
-    <div id='screen2'></div>
-    <div id='screen3'></div>
-    <div id='screen4'></div>
-    <div id='screen5'></div>
-    <div id='screen6'></div>
-    <div id='screen7'></div>
-    <div id='screen8'></div>
-    <div id='screen9'></div>
-    <div id='screen10'></div>
-    <h2 id='countdown' style="align-self: center;"></div>
+    <div class="container-fluid">
+    <p id='screen'></p>
+    <p id='screen2'></p>
+    <p id='screen3'></p>
+    <p id='screen4'></p>
+    <p id='screen5'></p>
+    <p id='screen6'></p>
+    <p id='screen7'></p>
+    <p id='screen8'></p>
+    <p id='screen9'></p>
+    <p id='screen10'></p>
+    <h2 id='countdown' class="text-center"></h2>
+    </div>
     <script type="text/javascript">
         function countdown(){
             var countDownDate = new Date("Feb 11, 2018 00:00:00").getTime();
