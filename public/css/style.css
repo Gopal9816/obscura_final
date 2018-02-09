@@ -220,4 +220,11 @@ body{
   #lefth{
     transform: scale(-1,1);
   }
+
+  #home{
+    margin:11px;
+}
+#other{
+    margin:11px;
+}
   
