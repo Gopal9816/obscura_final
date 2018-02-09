@@ -42,6 +42,14 @@
     <script type="text/javascript">
         $('#lefth', svg.root()).attr('transform', 'scale(-1 1) translate(-200 0)');
     </script>
+    <script type="text/javascript">
+        function displayother(){
+            document.getElementById("inputother").disabled = false;
+        }
+        function hideother(){
+            document.getElementById("inputother").disabled = true;
+           }
+    </script>
 
 </body>
 </html>

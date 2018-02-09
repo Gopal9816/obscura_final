@@ -11,20 +11,11 @@
                 {{Form::label('phno','Phone Number')}}
                 {{Form::text('phno','',['class' => 'form-control','placeholder' => 'Phone Number'])}}
             </div>
-
-<<<<<<< HEAD
-            <!--<div class="form-group">
-                {{ Form::radio('home', 'CET(home)') }}<br>
-                {{ Form::radio('home', 'Others') }}
-            </div>-->
-=======
            
->>>>>>> 541aac8b9fa321c602e5ef3ff6ecc19f35752a3e
-            
-        
             <div class="form-group">
-                {{Form::label('college','College')}}
-                {{Form::text('college','',['class' => 'form-control','placeholder' => 'College'])}}
+                {{Form::radio('college','home',false,['class' => 'form-control', 'onchange' => 'hideother()'])}}Home <br />
+                {{Form::radio('college','others',false,['class' => 'form-control','id' => 'other' , 'onchange' => 'displayother()'])}}Others
+                {{Form::text('collegename','',['class' => 'form-control','placeholder' => 'College', 'id' => 'inputother'])}}
             </div>
             
             {{Form::submit('Submit',['class' => 'btn btn-success'])}}

@@ -12,18 +12,11 @@
                 <?php echo e(Form::text('phno','',['class' => 'form-control','placeholder' => 'Phone Number'])); ?>
 
             </div>
-
-            <!--<div class="form-group">
-                <?php echo e(Form::radio('home', 'CET(home)')); ?><br>
-                <?php echo e(Form::radio('home', 'Others')); ?>
-
-            </div>-->
-            
-        
+           
             <div class="form-group">
-                <?php echo e(Form::label('college','College')); ?>
-
-                <?php echo e(Form::text('college','',['class' => 'form-control','placeholder' => 'College'])); ?>
+                <?php echo e(Form::radio('college','home',false,['class' => 'form-control', 'onchange' => 'hideother()'])); ?>Home <br />
+                <?php echo e(Form::radio('college','others',false,['class' => 'form-control','id' => 'other' , 'onchange' => 'displayother()'])); ?>Others
+                <?php echo e(Form::text('collegename','',['class' => 'form-control','placeholder' => 'College', 'id' => 'inputother'])); ?>
 
             </div>
             
