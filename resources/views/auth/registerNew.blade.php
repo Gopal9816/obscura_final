@@ -10,10 +10,7 @@
                 {{Form::text('phno','',['class' => 'form-control','placeholder' => 'Phone Number'])}}
             </div>
 
-            <!--<div class="form-group">
-                {{ Form::radio('home', 'CET(home)' }}<br>
-                {{ Form::radio('home', 'Others') }}
-            </div>-->
+           
             
         
             <div class="form-group">
