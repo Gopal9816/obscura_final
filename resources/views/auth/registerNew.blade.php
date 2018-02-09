@@ -12,10 +12,14 @@
                 {{Form::text('phno','',['class' => 'form-control','placeholder' => 'Phone Number'])}}
             </div>
 
+<<<<<<< HEAD
             <!--<div class="form-group">
                 {{ Form::radio('home', 'CET(home)') }}<br>
                 {{ Form::radio('home', 'Others') }}
             </div>-->
+=======
+           
+>>>>>>> 541aac8b9fa321c602e5ef3ff6ecc19f35752a3e
             
         
             <div class="form-group">
