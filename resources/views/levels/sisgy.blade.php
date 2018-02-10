@@ -3,16 +3,16 @@
 @section('content')
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
-        <h3 id="rhyme" >OH DO!</h2>
-        <h3 id="rhyme" >INDULGE an IDIOSYNCRASY</h2>
-        <h3 id="rhyme" >make BULLETS of LEAD</h2>
-        <h3 id="rhyme" >Reconcile DOG to CAT</h2>
-        <h3 id="rhyme" >Lay KNIFE by FORK</h2>
-        <h3 id="rhyme" >CONVERSE CHEERFULLY</h2>
-        <h3 id="rhyme" >WEDNESDAY AFTERNOON</h2>
-        <h3 id="rhyme" >COOK the DINNER</h2>
-        <h3 id="rhyme" >SPREAD the BANQUET</h2>
-        <h3 id="rhyme" >DEMAND a CORMORANT</h2>
+        <h1 id="rhyme-new" >OH DO!</h1>
+        <h1 id="rhyme-new" >INDULGE an IDIOSYNCRASY</h1>
+        <h1 id="rhyme-new" >make BULLETS of LEAD</h1>
+        <h1 id="rhyme-new" >Reconcile DOG to CAT</h1>
+        <h1 id="rhyme-new" >Lay KNIFE by FORK</h1>
+        <h1 id="rhyme-new" >CONVERSE CHEERFULLY</h1>
+        <h1 id="rhyme-new" >WEDNESDAY AFTERNOON</h1>
+        <h1 id="rhyme-new" >COOK the DINNER</h1>
+        <h1 id="rhyme-new" >SPREAD the BANQUET</h1>
+        <h1 id="rhyme-new" >DEMAND a CORMORANT</h1>
     <br><br>
     <div class="col-md-6 col-md-offset-3" style="padding-bottom: 20px;">        
             {!! Form::open(['action' => 'GameController@answer', 'method' => 'POST']) !!}
