@@ -77,6 +77,11 @@ header:after {
 #rhyme{
   font-family: 'Dancing Script', cursive;
 }
+#rhyme a{
+  text-decoration: none;
+  color: white;
+}
+
 #rhyme-new{
   font-family: 'Amatic SC', cursive;
 }

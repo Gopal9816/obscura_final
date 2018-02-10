@@ -1,4 +1,4 @@
-	body{
+body{
 	background-image:url('../img/dark.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -44,3 +44,13 @@
 		margin-right:5px;
 	}
 }
+.new-sel::-moz-selection { /* Code for Firefox */
+	color: red;
+	background: white;
+}
+
+.new-sel::selection {
+	color: red;
+	background: white;
+}
+
