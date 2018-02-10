@@ -22,7 +22,7 @@ class GameController extends Controller
             1 => 'levels.level1',
             2 => 'levels.level2',
             3 => 'levels.jabberwocky',
-            4 => 'levels.teaser',
+            4 => 'levels.sisgy',
         );
 
         $currentLevel = $levelsList[$level];
@@ -50,6 +50,7 @@ class GameController extends Controller
             1 => 'wachowski',
             2 => 'dodo',
             3 => 'tumtum',
+            4 => 'syzygy',
         );
         $level = $user->level;
         $correctAns = $answerList[$level];
