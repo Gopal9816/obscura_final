@@ -1,5 +1,8 @@
 body{
 	background-image:url('../img/b2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 }
 .hand{
 	align-content: center;

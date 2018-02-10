@@ -1,7 +1,6 @@
 <?php $__env->startSection('content'); ?>
 <link href="<?php echo e(asset('css/rep.css')); ?>" rel="stylesheet">
 <div class ="row rym animated fadeIn">
-    
         <h3 id="rhyme" >OH DO!</h2>
         <h3 id="rhyme" >INDULGE an IDIOSYNCRASY</h2>
         <h3 id="rhyme" >make BULLETS of LEAD</h2>
@@ -24,7 +23,7 @@
                 </div>
             <?php echo e(Form::submit('Submit',['class' => 'btn btn-success editb'])); ?>
 
-        <?php echo Form::close(); ?>
+            <?php echo Form::close(); ?>
 
     </div>
 </div>

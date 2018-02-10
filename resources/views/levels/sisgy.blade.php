@@ -3,7 +3,6 @@
 @section('content')
 <link href="{{ asset('css/rep.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
-    
         <h3 id="rhyme" >OH DO!</h2>
         <h3 id="rhyme" >INDULGE an IDIOSYNCRASY</h2>
         <h3 id="rhyme" >make BULLETS of LEAD</h2>
@@ -22,7 +21,7 @@
                     {{Form::text('answer','',['class' => 'form-control','placeholder' => 'Your Answer'])}}
                 </div>
             {{Form::submit('Submit',['class' => 'btn btn-success editb'])}}
-        {!! Form::close() !!}
+            {!! Form::close() !!}
     </div>
 </div>
 

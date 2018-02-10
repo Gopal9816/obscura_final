@@ -1,12 +1,16 @@
 	body{
 	background-image:url('../img/dark.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:100%;
+	
 }
 
 
 
 
 	.rym{
-		background-color: rgba(8, 4, 29   ,0.7);
+	background-color: rgba(8, 4, 29   ,0.7);
 	color:white;
 	margin-left:200px;
 	margin-right: 200px;
