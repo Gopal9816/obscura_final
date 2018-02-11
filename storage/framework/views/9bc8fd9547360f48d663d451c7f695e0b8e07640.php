@@ -1,5 +1,5 @@
 <?php $__env->startSection('content'); ?>
-<link href="<?php echo e(asset('css/rep.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('css/repbg.css')); ?>" rel="stylesheet">
 <div class ="row rym animated fadeIn">
     
     <h2 id="rhyme" class="text-center">

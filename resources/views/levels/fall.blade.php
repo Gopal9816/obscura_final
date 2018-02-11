@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<link href="{{ asset('css/rep.css') }}" rel="stylesheet">
+<link href="{{ asset('css/repbg.css') }}" rel="stylesheet">
 <div class ="row rym animated fadeIn">
     
     <h2 id="rhyme" class="text-center">
